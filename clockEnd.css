@@ -1,0 +1,166 @@
+body {
+     display:flex; 
+     height:100vh;
+
+    }
+
+span {
+  position: absolute;
+  color: black;  
+  font-size:30px;
+  z-index:20;
+}
+
+.h12 {
+  left: 50%;
+  top:-45px;
+  margin-left: -18px;
+  
+}
+
+.h1 {
+  left: 83%;
+  top:-18px;
+  margin-left: -18px;
+  font-size: 30px;
+}
+
+.h2 {
+  left:98%;
+  top:40px;
+  font-size: 30px;
+}
+.h3 {
+  left: 110%;
+  top:117px;
+  margin-left: -14px;
+   font-size: 30px;
+}
+
+.h4 {
+  right:-3%;
+  top:72%;
+  font-size: 30px;
+}
+.h5 {
+  left:77%;
+  top:94%;
+  font-size: 30px;
+}
+.h6 {
+  left:50%;
+  top:100%;
+  margin-left:-7px;
+  margin-top: 6px;
+  font-size: 30px;
+}
+
+.h7 {
+  top:92%;
+  left:18%;
+  font-size: 30px;
+}
+
+.h8 {
+ right:97%;
+ top:70%;
+ font-size: 30px;
+}
+
+.h9 {
+  top:40%;
+  left:0%;
+  margin-left:-31px;
+  font-size: 30px;
+}
+
+.h10 {
+ right:95%;
+ top:13%;
+  font-size: 30px;
+}
+
+.h11 {
+    right:73%;
+    top:-10%;
+  font-size: 30px;
+}
+    .circle{
+    margin: auto;
+    height: 375px;
+    width: 375px;
+    
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position:relative;
+    border: 10px solid black;
+    }
+    .dial-container {
+    height: 280px;
+    width: 280px;
+    
+    border-radius: 50%;
+    border: 4px solid black ;
+    position:relative;
+
+      }
+
+.dial {
+  height:100%;
+  width:4px;
+  background-color:black;
+  left:50%;
+  position:absolute;
+  transform: rotate(0deg);
+  top:0%;
+  z-index:1;
+}
+
+
+    .center{
+    height: 240px;
+    width: 240px;
+    background-color: white;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 4px solid black ;
+      position: relative;
+      z-index:2;
+      top:50%;
+      left:50%;
+    }  
+
+    .dot {
+width:20px;
+height: 20px;
+background-color: white;
+position: absolute;
+z-index:9;
+bottom: 45%;
+border-radius: 50%;
+    }
+
+    .hand-mins {
+        height:140px;
+        width:10px;
+        background-color: black;
+        position: absolute;
+        z-index:11;
+        transform-origin: bottom;
+        bottom:50%;
+       
+    }
+    .hand-hours {
+        height:95px;
+        width:10px;
+        background-color: black;
+        position: absolute;
+        z-index: 12;
+        transform-origin: bottom;
+        top: 10%;
+        
+    }
